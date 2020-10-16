@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ショッピングサイト</title>
+        <meta name="viewport" content="widh=device-width,initial-scale=1">
+        <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+        <link rel="stylesheet" href="css/top.css">
+        <link rel="stylesheet" href="css/skeleton.1.css">
+    </head>
+    <body>
+        <div class="wrapper">
+             <header class="header">
+                 <div class="container">
+                     <div class="row">
+                         <div class="six columns">logo</div>
+                         <div class="six columns">menu</div>
+                     </div>
+                 </div>
+             </header>
+             <main class="main">
+                 <div class="container">
+                     <div class="row">
+                         <div class="nine columns">
+                             <div class="owl-carousel owl-theme">
+                                <div class="owl-dot active"><img src="img/main/ca_banner.jpg"></div>
+                                <div class="owl-dot active"><img src="img/main/ca_banner.jpg"></div>
+                                <div class="owl-dot active"><img src="img/main/ca_banner.jpg"></div>
+                                <div class="owl-dot active"><img src="img/main/ca_banner.jpg"></div>
+                             </div>
+                         </div>
+                         <div class="three columns">aside</div>
+                     </div>
+                 </div>
+             </main>
+             <footer class="footer">footer</footer>
+        </div>
+       
+        
+        
+        
+        
+        <script>
+            $(document).ready(function(){
+                $('.owl-carousel').owlCarousel(
+                    {
+                        loop: true,
+                        nav: false,
+                        dots: true,
+                        items: 1,
+                        autoplay: true
+                        
+                    }
+                );
+            });
+        </script>
+    </body>
+</html>
